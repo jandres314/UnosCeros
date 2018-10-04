@@ -23,7 +23,7 @@ public class BinaryArrayToNumberTest {
 
         int resp = BinaryArrayToNumber.convertirArrayBinarioAInt(binario);
 
-        assertEquals(1, resp);
+        assertEquals(15, resp);
     }
 
 }
