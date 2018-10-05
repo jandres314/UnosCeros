@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools{
+        jdk "java8"
+    }
     stages {
         stage('Compilation') {
             steps {
